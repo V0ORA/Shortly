@@ -1,4 +1,4 @@
-# URL Shortening API
+![image](https://github.com/V0ORA/Shortly/assets/84463892/277c453c-2da2-4ae1-ad2a-8d0d2756ad88)# URL Shortening API
 
 A website for URL shortening.
 
@@ -45,10 +45,10 @@ Install dependencies `npm install`
 - Delete individual links or clear the entire link history using the provided options.
 
 - To build the project for production:
-  `npm run build`
+  ```npm run build```
 
 - To preview the built preview:
-  `npm run preview`
+  ```npm run preview```
 
 ## Contributing
 

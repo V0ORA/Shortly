@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="The URL Shortening API is a website that allows users to shorten long URLs and generate shortened links. It provides a convenient way to create shorter, more manageable URLs for sharing or using in various applications."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="module" src="js/index.js" defer></script>
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="assets/images/logo.svg" alt="logo" />
+      </a>
+
+      <!-- Hamburger icon -->
+      <div id="hamburger" class="hamburger">
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+        <div class="hamburger-icon"></div>
+      </div>
+
+      <!-- Mobile navigation popup when hamburger icon is clicked -->
+      <aside>
+        <nav class="mobileNav">
+          <ul class="mobileNav__links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#" class="line">Resources</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#" class="btn">Sign Up</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Desktop navigation -->
+      <nav class="desktopNav">
+        <ul class="mobileNav__links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#" class="btn">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main p-20">
+      <div class="main__img">
+        <img src="assets/images/illustration-working.svg" alt="person working on desk " />
+      </div>
+
+      <div class="main__content">
+        <h1 class="main__heading">More than just shorter links</h1>
+        <p class="main__text">
+          Build your brand's recognition and get detailed insights on how your links are
+          performing.
+        </p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </main>
+
+    <!-- STATISTICS -->
+    <section class="statistics p-20">
+      <div class="shorten">
+        <form id="shorten_form" class="shorten__form">
+          <div class="input-container">
+            <input
+              type="text"
+              class="shorten__input"
+              id="link-input"
+              placeholder="Shorten a link here..."
+            />
+            <span class="alert">Please add a valid link</span>
+          </div>
+
+          <button type="submit" class="btn shorten__btn" id="generate-btn">
+            Shorten it!
+          </button>
+        </form>
+      </div>
+
+      <!-- Shorten results -->
+      <div class="results">
+        <button id="btn_delete" class="btn btn_delete">
+          Delete all
+          <img src="assets/images/delete.png" alt="Delete icon" />
+        </button>
+      </div>
+
+      <div class="statistics__heading">
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our advanced statistics
+          dashboard.
+        </p>
+      </div>
+
+      <div class="statistics__info">
+        <div class="statistics__card">
+          <img src="assets/images/icon-brand-recognition.svg" alt="icon" />
+          <h3>Brand Recognition</h3>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t mean a
+            thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+
+        <span class="statistics__border"></span>
+        <div class="statistics__card">
+          <img src="assets/images/icon-detailed-records.svg" alt="icon" />
+          <h3>Detailed Records</h3>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and where people
+            engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <span class="statistics__border"></span>
+
+        <div class="statistics__card">
+          <img src="assets/images/icon-fully-customizable.svg" alt="icon" />
+          <h3>Fully Customizable</h3>
+          <p>
+            Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET STARTED  -->
+    <section class="startboost">
+      <picture>
+        <!-- Desktop image -->
+        <source media="(min-width: 992px)" srcset="assets/images/bg-boost-desktop.svg" />
+        <!-- Mobile image -->
+        <source media="(max-width: 992px)" srcset="assets/images/bg-boost-mobile.svg" />
+
+        <img
+          src="assets/images/bg-boost-mobile.svg"
+          class="startboost_img"
+          alt="background boost image"
+        />
+      </picture>
+
+      <div class="startboost__content">
+        <h2>Boost your links today</h2>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a href="#">
+        <img src="assets/images/logo.svg" class="footer__logo" alt="footer logo" />
+      </a>
+      <nav class="footer__nav">
+        <div class="footer__links">
+          <h3>Features</h3>
+          <ul>
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="footer__icons">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon-facebook.svg" alt="facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon-twitter.svg" alt="twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon-pinterest.svg" alt="pinterest icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon-instagram.svg" alt="instagram icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

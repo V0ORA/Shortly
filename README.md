@@ -1,9 +1,6 @@
-![image](https://github.com/V0ORA/Shortly/assets/84463892/277c453c-2da2-4ae1-ad2a-8d0d2756ad88)# URL Shortening API
-
 A website for URL shortening.
 
 ![Desktop Design](./design/desktop-design.jpg)
-![Mobile Design](./design/mobile-design.jpg)
 
 ## Table of Contents
 

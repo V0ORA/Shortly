@@ -3,7 +3,7 @@
 A website for URL shortening.
 
 ![Desktop Design](./design/desktop-design.jpg)
-![Mobile Design](./design/mobile-design.jpg.jpg)
+![Mobile Design](./design/mobile-design.jpg)
 
 ## Table of Contents
 
@@ -39,16 +39,16 @@ Install dependencies `npm install`
 
 1.Start the development server: `npm run dev`
 
-1.It will start on `http://localhost:3000` you can change it in `vite.config.js`.
-2.Shorten URLs by entering them into the input field and clicking the "Shorten" button.
-3.Copy the shortened links by clicking the "Copy" button next to each link.
-5.Delete individual links or clear the entire link history using the provided options.
+- It will start on `http://localhost:3000` you can change it in `vite.config.js`.
+- Shorten URLs by entering them into the input field and clicking the "Shorten" button.
+- Copy the shortened links by clicking the "Copy" button next to each link.
+- Delete individual links or clear the entire link history using the provided options.
 
-6.To build the project for production:
-`npm run build`
+- To build the project for production:
+  `npm run build`
 
-7.To preview the built preview:
-`npm run preview`
+- To preview the built preview:
+  `npm run preview`
 
 ## Contributing
 
